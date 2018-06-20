@@ -24,6 +24,23 @@ namespace SortTestHelper {
         return arr;
     }
 
+    int* generateNearlyOrderedArray(int n, int swapTimes) {
+        // 生成一个有序数组并随机做几次交换，这种时候数组近乎是有序状态
+        // 用来测试 sort 函数, 这时会发现对于这种类型的数组插入排序远远优于选择排序
+        int *arr = new int[n];
+        for (int i = 0; i < n; i ++)
+            arr[i] = i;
+
+        srand(time(NULL));
+        for (int i = 0; i < swapTimes; i ++) {
+            int posx = rand() % n;
+            int posy = rand() % n;
+            swap(arr[posx], arr[posy]);
+        }
+
+        return arr;
+    }
+
     template <typename T>
     void printArray(T arr, int n) {
         for (int i = 0; i < n; i ++)
@@ -52,6 +69,12 @@ namespace SortTestHelper {
         clock_t endTime = clock();
         assert(isSorted(arr, n));
         cout << sortName << ": " << double(endTime - startTime) / CLOCKS_PER_SEC << " s" << endl;
+    }
+
+    int* copyIntArray(int a[], int n) {
+        int *arr = new int[n];
+        copy(a, a + n, arr);
+        return arr;
     }
 }
 
