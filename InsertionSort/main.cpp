@@ -19,7 +19,7 @@ void insertionSort(T arr[], int n) {
 int main() {
 
     int n = 10000;
-//    int *arr = SortTestHelper::generateRandomArray(n, 0, n);
+    //int *arr = SortTestHelper::generateRandomArray(n, 0, n);
     int *arr = SortTestHelper::generateNearlyOrderedArray(n, 100);
     int *arr2 = SortTestHelper::copyIntArray(arr, n);
 
