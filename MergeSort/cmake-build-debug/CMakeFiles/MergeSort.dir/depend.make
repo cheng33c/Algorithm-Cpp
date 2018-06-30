@@ -4,5 +4,6 @@
 CMakeFiles/MergeSort.dir/main.cpp.o: ../InsertionSort.h
 CMakeFiles/MergeSort.dir/main.cpp.o: ../SortTestHelper.h
 CMakeFiles/MergeSort.dir/main.cpp.o: ../main.cpp
+CMakeFiles/MergeSort.dir/main.cpp.o: ../mergeSort.h
 CMakeFiles/MergeSort.dir/main.cpp.o: ../shellSort.h
 

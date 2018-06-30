@@ -1,0 +1,1 @@
+/usr/bin/g++   -std=c++11 -g   CMakeFiles/04_Read_Graph.dir/main.cpp.o  -o ../04_Read_Graph 

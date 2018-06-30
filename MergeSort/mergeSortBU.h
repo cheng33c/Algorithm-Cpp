@@ -13,7 +13,7 @@ template <typename T>
 void mergeSortBU(T arr[], int n) {
     for (int sz = 1; sz <= n; sz += 2) // 定义每次遍历子数组的大小，1,2,4,6,8
         for (int i = 0; i + sz < n; i += sz + sz) // 每次遍历并合并两个子数组，所以 i += sz + sz, i + sz 为防止越界
-            __merge(arr, i, i + sz - 1, min(i + sz + sz - 1, n - 1));
+            __merge(arr, i, i + sz - 1, std::min(i + sz + sz - 1, n - 1));
 }
 
 #endif //MERGESORT_MERGESORTBU_H

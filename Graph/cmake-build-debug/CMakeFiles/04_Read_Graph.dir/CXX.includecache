@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/c/CLionProjects/Algorithm/Graph/DenseGraph.h
+iostream
+-
+vector
+-
+cassert
+-
+
+/home/c/CLionProjects/Algorithm/Graph/ReadGraph.h
+iostream
+-
+string
+-
+fstream
+-
+sstream
+-
+cassert
+-
+
+/home/c/CLionProjects/Algorithm/Graph/SparseGraph.h
+iostream
+-
+vector
+-
+cassert
+-
+
+/home/c/CLionProjects/Algorithm/Graph/main.cpp
+iostream
+-
+SparseGraph.h
+/home/c/CLionProjects/Algorithm/Graph/SparseGraph.h
+DenseGraph.h
+/home/c/CLionProjects/Algorithm/Graph/DenseGraph.h
+ReadGraph.h
+/home/c/CLionProjects/Algorithm/Graph/ReadGraph.h
+

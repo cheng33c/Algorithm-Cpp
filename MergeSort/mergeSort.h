@@ -23,12 +23,12 @@ void __merge(T arr[], int l, int mid, int r) {
         } else if (rcur > r) { // 当 rcur 大于 r 时，说明右子数组已经遍历完成，直接添加左子数组尚未添加的元素
             arr[cur] = aux[lcur - l];
             lcur ++;
-        } else if (aux[lcur - l] > aux[rcur - l]) { // 当 aux[lcur] 大于 aux[rcur] 时， arr[cur] 更新为 arr[rcur - l]
-            arr[cur] = aux[rcur - l];
-            rcur ++;
-        } else { // aux[lcur] < aux[rcur] 当 aux[lcur] 小于 aux[rcur] 时， arr[cur]更改为arr[lcur - l]
+        } else if (aux[lcur - l] < aux[rcur - l]) { // 当 aux[lcur] 大于 aux[rcur] 时， arr[cur] 更新为 arr[rcur - l]
             arr[cur] = aux[lcur - l];
             lcur ++;
+        } else { // aux[lcur] > aux[rcur] 当 aux[lcur] 大于 aux[rcur] 时， arr[cur]更改为arr[lcur - l]
+            arr[cur] = aux[rcur - l];
+            rcur ++;
         }
     }
 }
@@ -47,7 +47,7 @@ void __mergeSort(T arr[], int l, int r) {
     int mid = l / 2 + r / 2; // 防止越界 (l + r) / 2
     __mergeSort(arr, l, mid); // 归并排序左子数组
     __mergeSort(arr, mid + 1, r); // 排序右子数组
-    if (arr[mid] > arr[mid + 1])
+    //if (arr[mid] > arr[mid + 1])
         __merge(arr, l, mid, r); // 左右子数组合并
 }
 

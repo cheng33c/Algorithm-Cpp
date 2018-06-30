@@ -3,12 +3,13 @@
 #include "SortTestHelper.h"
 #include "shellSort.h"
 #include "InsertionSort.h"
+#include "mergeSort.h"
 
 using namespace std;
 
 int main() {
 
-    int n = 500000;
+    int n = 50000;
 
 //    {
 //        cout << "Test for Random Array, size = " << n << ", random range [0, " << n << "]" << endl;
@@ -26,7 +27,7 @@ int main() {
     {
         int swapTimes = 0;
         cout << "Test for Random Array, size = " << n << ", random range [0, " << n << "]" << endl;
-        int *arr1 = SortTestHelper::generateNearlyOrderedArray(n, 0);
+        int *arr1 = SortTestHelper::generateRandomArray(n, 0, n);
         int *arr2 = SortTestHelper::copyIntArray(arr1, n);
 
 
