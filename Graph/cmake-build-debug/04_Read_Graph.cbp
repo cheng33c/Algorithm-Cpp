@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/c/CLionProjects/Algorithm/Graph/Component.h">
+			<Option target="04_Read_Graph"/>
+		</Unit>
 		<Unit filename="/home/c/CLionProjects/Algorithm/Graph/DenseGraph.h">
 			<Option target="04_Read_Graph"/>
 		</Unit>

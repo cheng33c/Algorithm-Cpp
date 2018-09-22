@@ -1,0 +1,8 @@
+//
+// Created by c on 18-6-30.
+//
+
+#ifndef INC_04_READ_GRAPH_COMPONENT_H
+#define INC_04_READ_GRAPH_COMPONENT_H
+
+#endif //INC_04_READ_GRAPH_COMPONENT_H
