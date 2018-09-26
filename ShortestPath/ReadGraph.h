@@ -1,7 +1,3 @@
-//
-// Created by liuyubobobo on 9/28/16.
-//
-
 #ifndef INC_03_IMPLEMENTATION_OF_DIJKSTRA_READGRAPH_H
 #define INC_03_IMPLEMENTATION_OF_DIJKSTRA_READGRAPH_H
 

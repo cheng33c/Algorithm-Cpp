@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/c/CLionProjects/Algorithm/MaxHeap/main.cpp
+iostream
+-
+cmath
+-
+ctime
+-
+string
+-
+cassert
+-
+algorithm
+-
+

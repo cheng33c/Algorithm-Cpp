@@ -3,4 +3,4 @@ project(ShortestPath)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(ShortestPath main.cpp)
+add_executable(ShortestPath DenseGraph.h Edge.h Dijkstra.h IndexMinHeap.h ReadGraph.h SparseGraph.h main.cpp BellmanFord.h)

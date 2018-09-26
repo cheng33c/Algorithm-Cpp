@@ -82,6 +82,27 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/c/CLionProjects/Algorithm/ShortestPath/BellmanFord.h">
+			<Option target="ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/c/CLionProjects/Algorithm/ShortestPath/DenseGraph.h">
+			<Option target="ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/c/CLionProjects/Algorithm/ShortestPath/Dijkstra.h">
+			<Option target="ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/c/CLionProjects/Algorithm/ShortestPath/Edge.h">
+			<Option target="ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/c/CLionProjects/Algorithm/ShortestPath/IndexMinHeap.h">
+			<Option target="ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/c/CLionProjects/Algorithm/ShortestPath/ReadGraph.h">
+			<Option target="ShortestPath"/>
+		</Unit>
+		<Unit filename="/home/c/CLionProjects/Algorithm/ShortestPath/SparseGraph.h">
+			<Option target="ShortestPath"/>
+		</Unit>
 		<Unit filename="/home/c/CLionProjects/Algorithm/ShortestPath/main.cpp">
 			<Option target="ShortestPath"/>
 		</Unit>

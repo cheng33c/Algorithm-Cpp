@@ -26,7 +26,7 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1244">
+            <state relative-caret-position="1306">
               <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -92,6 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,7 +104,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,14 +145,15 @@
       <workItem from="1529630368868" duration="4269000" />
       <workItem from="1530177791016" duration="3000" />
       <workItem from="1530259518983" duration="17000" />
+      <workItem from="1537879155240" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4289000" />
+    <option name="totallyTimeSpent" value="4292000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="62" width="3840" height="2098" extended-state="6" />
+    <frame x="0" y="0" width="3840" height="2160" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.111979164" />
@@ -182,6 +183,38 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#102#114#0" expanded="true" />
+            <element signature="e#103#115#0" expanded="true" />
+            <element signature="e#52#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SortTestHelper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3195">
+          <caret line="71" column="57" lean-forward="true" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MergeSort.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#131#143#0" expanded="true" />
+            <element signature="e#1002#1014#0" expanded="true" />
+            <element signature="e#1457#1469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2340">
@@ -268,7 +301,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1244">
+        <state relative-caret-position="1306">
           <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
