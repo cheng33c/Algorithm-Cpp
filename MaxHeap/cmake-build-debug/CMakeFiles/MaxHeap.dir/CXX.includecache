@@ -6,8 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/c/CLionProjects/Algorithm/MaxHeap/main.cpp
-iostream
+/home/c/CLionProjects/Algorithm/MaxHeap/Heap.h
+algorithm
+-
+random
 -
 cmath
 -
@@ -17,6 +19,10 @@ string
 -
 cassert
 -
-algorithm
+
+/home/c/CLionProjects/Algorithm/MaxHeap/main.cpp
+iostream
 -
+Heap.h
+/home/c/CLionProjects/Algorithm/MaxHeap/Heap.h
 
