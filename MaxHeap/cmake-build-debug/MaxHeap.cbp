@@ -88,6 +88,9 @@
 		<Unit filename="/home/c/CLionProjects/Algorithm/MaxHeap/HeapSort.h">
 			<Option target="MaxHeap"/>
 		</Unit>
+		<Unit filename="/home/c/CLionProjects/Algorithm/MaxHeap/IndexHeap.h">
+			<Option target="MaxHeap"/>
+		</Unit>
 		<Unit filename="/home/c/CLionProjects/Algorithm/MaxHeap/InsertionSort.h">
 			<Option target="MaxHeap"/>
 		</Unit>
